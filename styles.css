@@ -1,0 +1,160 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* General Styles */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+  
+  header {
+    text-align: center;
+    background-color: #ff6f61;
+    color: white;
+    padding: 50px;
+  }
+  
+  h1 {
+    font-size: 3em;
+  }
+  
+  section {
+    margin: 50px 20px;
+  }
+  
+  h2 {
+    color: #ff6f61;
+  }
+  
+  #promise, #journey, #memories, #future {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  #memories .gallery {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  #memories img {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  #love-letter p {
+    font-size: 1.2em;
+  }
+  
+  .link-button {
+    display: inline-block;
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .link-button:hover {
+    background-color: #ff4f3f;
+  }
+  
+
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .card {
+    background: #ffe4ec; /* Soft Pink */
+    border-radius: 16px;
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #b03060; /* Deep Rosy Text */
+    box-shadow: 0 8px 20px rgba(176, 48, 96, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 12px 25px rgba(176, 48, 96, 0.25);
+  }
+  
+  
+
+  .read-this-when {
+    padding: 60px 20px;
+    background-color: #fff0f5;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 32px;
+    color: #b03060;
+    margin-bottom: 40px;
+    font-family: 'Segoe Script', cursive;
+  }
+  
+  .button-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .love-btn {
+    background-color: #ffccd5;
+    color: #b03060;
+    padding: 14px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 0 5px 15px rgba(176, 48, 96, 0.2);
+    transition: all 0.3s ease;
+    display: inline-block;
+  }
+  
+  .love-btn:hover {
+    background-color: #ffb6c1;
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(176, 48, 96, 0.3);
+  }
+  
+
+
+
+
+
+
+  
